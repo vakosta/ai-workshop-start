@@ -4,7 +4,7 @@ Prints the result **at once**; *nothing is stored*.
 `GITHUB_TOKEN`, optional: a higher GitHub rate limit.
 ## Output
 ```
-JetBrains/kotlin · 6 skills
+JetBrains/kotlin · 7 skills
 build-tools-bump-gradle-api — Bumps the Gradle API…
   https://github.com/JetBrains/kotlin/blob/<commit>/…
 ```
