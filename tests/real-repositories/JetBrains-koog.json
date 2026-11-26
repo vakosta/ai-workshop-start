@@ -1,0 +1,55 @@
+{
+ "https://api.github.com/repos/JetBrains/koog": {
+  "status": 200,
+  "body": {
+   "full_name": "JetBrains/koog",
+   "default_branch": "develop"
+  }
+ },
+ "https://api.github.com/repos/JetBrains/koog/commits/develop": {
+  "status": 200,
+  "body": {
+   "sha": "709079e4a34d6c9234583352550e6a2b88a0bb85"
+  }
+ },
+ "https://api.github.com/repos/JetBrains/koog/git/trees/709079e4a34d6c9234583352550e6a2b88a0bb85?recursive=1": {
+  "status": 200,
+  "body": {
+   "truncated": false,
+   "tree": [
+    {
+     "path": ".claude/skills/add-java-code-snippets-in-docs/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "e9038096db6935f207faf6f0e435af5d74c56b4e"
+    },
+    {
+     "path": ".claude/skills/split-jvm-nonjvm/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "7d14236161a730d8e0fb5b8737a8dcd509a18d3e"
+    },
+    {
+     "path": "integration-tests/src/jvmTest/resources/skills/arithmetic-evaluator/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "5dfddcd87829f07493c1facfdeeea344b943d2ff"
+    },
+    {
+     "path": "integration-tests/src/jvmTest/resources/skills/weather-retrieval/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "46fc551563ed0038ffc88217c1afb46c775941eb"
+    }
+   ]
+  }
+ },
+ "https://raw.githubusercontent.com/JetBrains/koog/709079e4a34d6c9234583352550e6a2b88a0bb85/.claude/skills/add-java-code-snippets-in-docs/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: add-java-code-snippets-in-docs\ndescription: Use when the user asks to add Java tabs/examples to mkdocs docs that already have Kotlin examples (files under docs/docs/**.md using === \"Kotlin\" / Knit INCLUDE+SUFFIX blocks). Handles mkdocs-material tabs, Knit directives, @JavaAPI bridge methods, and JVM factory classes.\nallowed-tools: Read, Edit, Write, Bash, Grep, Glob\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/koog/709079e4a34d6c9234583352550e6a2b88a0bb85/.claude/skills/split-jvm-nonjvm/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: split-jvm-nonjvm\ndescription: |\n    Splits a class or several classes in the common source set commonMain into JVM and non-JVM parts into jvmCommonMain and nonJvmCommonMain. \n    This is used to provide some JVM-specific functionality for a class on JVM targets (e.g. Kotlin/JVM or Java backend or Android).\n---\n"
+ }
+}

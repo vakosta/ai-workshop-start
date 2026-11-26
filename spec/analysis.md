@@ -28,3 +28,7 @@ A skill an agent loads when it works *in* the repository: `<base>/<root>/<skill>
 - Without a token, a tree too large for one answer → only the roots at the repository root, and a *warning*
 - No project skill → `· 0 skills`, exit code 0
 - Unreachable repository → a clear message, exit code 1
+## Checked on real repositories
+JetBrains/MPS (a large tree, skills with copies), JetBrains/android (0 skills), JetBrains/koog (a small tree)
+- GitHub's answers are *recorded* and replayed: the tests never reach the network
+- `npm run record` records them again; `GITHUB_TOKEN` only raises the rate limit

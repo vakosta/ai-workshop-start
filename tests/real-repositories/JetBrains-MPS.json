@@ -1,0 +1,640 @@
+{
+ "https://api.github.com/repos/JetBrains/MPS": {
+  "status": 200,
+  "body": {
+   "full_name": "JetBrains/MPS",
+   "default_branch": "master"
+  }
+ },
+ "https://api.github.com/repos/JetBrains/MPS/commits/master": {
+  "status": 200,
+  "body": {
+   "sha": "1cbf7f783dbc5c74c8e5231d31f61b02829143de"
+  }
+ },
+ "https://api.github.com/repos/JetBrains/MPS/git/trees/1cbf7f783dbc5c74c8e5231d31f61b02829143de": {
+  "status": 200,
+  "body": {
+   "truncated": false,
+   "tree": [
+    {
+     "path": ".agents",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "6e2ba28fdb08f038f7cf7f59c931852764740b36"
+    },
+    {
+     "path": ".ai",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "84d1c923e5f243ff68cfc5ce49fea082e58869e9"
+    },
+    {
+     "path": ".claude",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "a0e6759259148991cc7eb9a79ad257750c3dbe8d"
+    },
+    {
+     "path": ".idea",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "87fbd10af95315d0699903b2e86a73e989ddb0a4"
+    },
+    {
+     "path": ".mps",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "1dfb8749dead957741d49a1d38ea8773c6083da6"
+    },
+    {
+     "path": "IdeaPlugin",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "cc8f433d2112cf46c406ad558a9e51b17e2b8324"
+    },
+    {
+     "path": "bin",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "5705013daa3ca6793e9b47686f29dc9758a1e5a7"
+    },
+    {
+     "path": "build",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "e30ff45bead3bde528edf29153fcc1c6fd0b1c14"
+    },
+    {
+     "path": "core",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "dd9833b131e2e6ee4bae95031703e59e8211a8ec"
+    },
+    {
+     "path": "devkits",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "1e6a820af3eb82e535724ec1461395820bd11b92"
+    },
+    {
+     "path": "editor",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "945640bf1a835f313d861865395fee6e9889c70c"
+    },
+    {
+     "path": "help",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+     "path": "jps",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "860b7b14d1939cd26daf2c4c9bb075fd9708ac30"
+    },
+    {
+     "path": "languages.test",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "917ed838152969da0ef83deda1ad30975bb69295"
+    },
+    {
+     "path": "languages",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "de5b8dae073905327a8131eb227339f23f4c9c9a"
+    },
+    {
+     "path": "license",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "a2052d0e7fa25e12b74305ede393162f2046171b"
+    },
+    {
+     "path": "mps-platform",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "13da56548f6f1ba5aad6e5088e07350903819898"
+    },
+    {
+     "path": "platform",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "a1494f3a4eb49404e9ae4baae9442f2e174ac8be"
+    },
+    {
+     "path": "plugins",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "f38ed4433ae530060e48c943cc153a6a2b8959c5"
+    },
+    {
+     "path": "samples",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "e3e00b4f35544b27f8ac0f8b36f2ba7273f69c39"
+    },
+    {
+     "path": "startup",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "1584a0600bf29d917ca2e75a43980e77ed47f040"
+    },
+    {
+     "path": "testbench",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "f108b055beecd923a00659cbd6f43b174667c681"
+    },
+    {
+     "path": "tools",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "b9fdd0225c4f4e8c15620ac4eeb32db197c926aa"
+    },
+    {
+     "path": "workbench",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "c7c9331424da2c070b62da8f94c2ebac6d0efb61"
+    }
+   ]
+  }
+ },
+ "https://api.github.com/repos/JetBrains/MPS/git/trees/1cbf7f783dbc5c74c8e5231d31f61b02829143de?recursive=1": {
+  "status": 200,
+  "body": {
+   "truncated": true,
+   "tree": []
+  }
+ },
+ "https://api.github.com/repos/JetBrains/MPS/git/trees/6e2ba28fdb08f038f7cf7f59c931852764740b36": {
+  "status": 200,
+  "body": {
+   "truncated": false,
+   "tree": [
+    {
+     "path": "skills",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "cbdda5a8afb10ebff3c1c7a58ae99d8d18e81977"
+    }
+   ]
+  }
+ },
+ "https://api.github.com/repos/JetBrains/MPS/git/trees/a0e6759259148991cc7eb9a79ad257750c3dbe8d": {
+  "status": 200,
+  "body": {
+   "truncated": false,
+   "tree": [
+    {
+     "path": "skills",
+     "mode": "040000",
+     "type": "tree",
+     "sha": "cbdda5a8afb10ebff3c1c7a58ae99d8d18e81977"
+    }
+   ]
+  }
+ },
+ "https://api.github.com/repos/JetBrains/MPS/git/trees/cbdda5a8afb10ebff3c1c7a58ae99d8d18e81977?recursive=1": {
+  "status": 200,
+  "body": {
+   "truncated": false,
+   "tree": [
+    {
+     "path": "actions/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "398e51d461a11ce747b28d254e117723875fec74"
+    },
+    {
+     "path": "bugfix-workflow/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "89e6f714490bcef0c7bcdf9c6cd876b21e5fe80d"
+    },
+    {
+     "path": "code-style/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "e9565b57ef41d24a5d2ea2b9d9303398c0cc3e4d"
+    },
+    {
+     "path": "commits/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "9ff6b5cac42fd137ea1fae7a999e18e6b8fa977e"
+    },
+    {
+     "path": "debugging/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "c03ecd103f3cb595b986492f318af9f156a9fc3b"
+    },
+    {
+     "path": "mps-aspect-accessories/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "b269ddd69a8100b8b3280e7a4a7062740a9a7e92"
+    },
+    {
+     "path": "mps-aspect-actions/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "1f603c66284d38855c358b8b3bc720cec274be72"
+    },
+    {
+     "path": "mps-aspect-behavior/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "bb2738f1b16197815eb741cf049a02280b5c2321"
+    },
+    {
+     "path": "mps-aspect-constraints/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "2651c8efe6463fde9adb235ade9bab493b6c5c59"
+    },
+    {
+     "path": "mps-aspect-dataflow/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "00f022ac78b8ffbac5cd2763644afaec18ba929d"
+    },
+    {
+     "path": "mps-aspect-editor-menus-and-keymaps/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "a5ea10d9e1471145cd357c08abb3ff643fb5c292"
+    },
+    {
+     "path": "mps-aspect-editor/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "65e776d7893f048fa6680bd08f982c2a4b9cf0a2"
+    },
+    {
+     "path": "mps-aspect-generation-plan/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "ee590ccf2e0ba142354f8b342bfc62f4b95c0cfc"
+    },
+    {
+     "path": "mps-aspect-generator/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "63100cd45361778212c8084a12f07925822ac7fb"
+    },
+    {
+     "path": "mps-aspect-intentions/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "8b475b74cdcb121a71ef587ac6d743ca532e76a5"
+    },
+    {
+     "path": "mps-aspect-migrations/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "46602e57a4cb14f3dc86e285eb7c4e6b2794fca6"
+    },
+    {
+     "path": "mps-aspect-structure-concepts/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "49363330fa1f044f2e6aa96fd42d8f66ba3189aa"
+    },
+    {
+     "path": "mps-aspect-textgen/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "b94d9f989578d9486d75be7f37fc01a53be178d2"
+    },
+    {
+     "path": "mps-aspect-typesystem/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "11df1f4b22df7abd99281d17ba35d17ed4d86c59"
+    },
+    {
+     "path": "mps-baselanguage/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "9770397b0f33cc144375cb421aeac00c60aae813"
+    },
+    {
+     "path": "mps-build-language/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "7c70458691ea707ae97ffcd5e4093f085b9ebc64"
+    },
+    {
+     "path": "mps-collections-and-closures/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "ca8b86cf4525c83b30366092b520d0c4b341e018"
+    },
+    {
+     "path": "mps-console/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "b1c259379a0d5fe054b342ab391ba1af013c82e1"
+    },
+    {
+     "path": "mps-distribution-build/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "39d652f1aaa02bc333368f215d75624ea4cc6d28"
+    },
+    {
+     "path": "mps-dsl-memory/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "bd5d45b19d06caa0d49cfd7bf050b50db927e709"
+    },
+    {
+     "path": "mps-ide-plugin/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "a2d4ab68e70f4e5c9ca71c0c8a1605617f803e0f"
+    },
+    {
+     "path": "mps-lang-core-xml/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "3cbf4b5eac7b1844b63db46c6cc7ecd6380e420b"
+    },
+    {
+     "path": "mps-language-analysis/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "b3d0c912fff455802d7408badbcb734e2444e7af"
+    },
+    {
+     "path": "mps-language-aspects-overview/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "85ebc8443f766caa5c72d582ff0dcbe3ba3942ed"
+    },
+    {
+     "path": "mps-language-inheritance/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "2b4ea7d499a3e0213bce99d47050a3ab640c6389"
+    },
+    {
+     "path": "mps-language-modularity/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "006686a36221f5f08bfa2239714e2d3690a7ddd0"
+    },
+    {
+     "path": "mps-mcp-workflow/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "ce2b1f71cb5dc11b738d408c2bcea1e649ef9a77"
+    },
+    {
+     "path": "mps-model-manipulation/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "7f9db0452792d55090becb6b19750b28d80c6c3e"
+    },
+    {
+     "path": "mps-node-editing/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "346458fd24e55e4e4e64167515c777c172209d88"
+    },
+    {
+     "path": "mps-project-management/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "c88935f7f4d424e9619e33f26cd04c75be88f360"
+    },
+    {
+     "path": "mps-quotations/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "b72a5251727c6ea9d31fe3d14027901ad6502f7e"
+    },
+    {
+     "path": "mps-run-configurations/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "2a1e66473c8abbb750cc3680029c1d909212c53f"
+    },
+    {
+     "path": "mps-tests/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "770bdb72b688659164d9682b51e75a0ed26d9798"
+    },
+    {
+     "path": "registry/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "53ee7d350bc2399f04ec4219ca89b3d9a1c6ac73"
+    },
+    {
+     "path": "skill-optimization-study/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "dc202f574a85dae66bef075157feb59acf999bf8"
+    },
+    {
+     "path": "ssr/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "aa85ce94326000040a1636c43362fd0a2aaf2dd7"
+    },
+    {
+     "path": "study-run-cleanup/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "a35744c148cc6fe315e8a5985814d4bce3a1dc55"
+    },
+    {
+     "path": "teamcity-cli/SKILL.md",
+     "mode": "100644",
+     "type": "blob",
+     "sha": "51b279924100750e2a073bd5c9fb04cd5663c8fc"
+    }
+   ]
+  }
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/actions/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: actions\ndescription: Guidelines for implementing IntelliJ actions (AnAction). Use those rules when you need to create or change an action in the intellij platform.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/bugfix-workflow/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: bugfix-workflow\ndescription: Structured MPS bugfix workflow driven by a YouTrack issue ID — preflight tool checks, version/branch derivation, parallel-agent problem analysis, solution design, branch creation, implementation, review, TeamCity feature-branch validation, and YouTrack updates. Use when the user invokes \"/bugfix\", \"/bugfix-workflow\", asks to \"fix a bug\", \"work on a bug\", \"investigate an issue\", or provides a YouTrack issue ID.\nargument-hint: <YouTrack issue ID, e.g. MPS-12345>\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/code-style/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: code-style\ndescription: Code style rules for IntelliJ codebase. Use when writing or reviewing code for style compliance.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/commits/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: commits\ndescription: >-\n  Use this skill whenever the user asks to commit changes, write or fix a\n  commit message, amend or rename a commit, or do a workflow that includes\n  committing in the IntelliJ repository. This is a thin repo-specific overlay:\n  use IntelliJ commit format, write full commit messages by default, and keep\n  requested suffixes such as IJ-MR trailers in a final separate paragraph.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/debugging/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: debugging\ndescription: Debugging techniques and tools for IntelliJ development. Use when debugging IDE issues or investigating failures.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-accessories/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-accessories\ndescription: Wire MPS module and model dependencies, used languages, used devkits, extended languages, runtime solutions, accessory models, and language/dependency versions. Use when adding/removing module dependencies, importing languages or devkits into a model, declaring runtime solutions, or shipping accessory content visible to consumers without explicit import.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-actions/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-actions\ndescription: Use when defining or editing MPS node factories (the \"actions\" aspect) — `NodeFactories` roots, per-concept `NodeFactory` setup functions that initialize a freshly created node and optionally copy data from a replaced `sampleNode`, plus the actions aspect's `CopyPasteHandlers` and `PasteWrappers` roots. Reach for this skill when a substitution, side transform, completion replacement, or `add new initialized(...)` should preserve fields from the node it is replacing, or when defaults set in a constructor are not enough.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-behavior/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-behavior\ndescription: Use when defining or editing MPS `ConceptBehavior` — per-concept methods (non-virtual / virtual / abstract / static / virtual static), constructors, virtual dispatch (MRO), super and interface-default calls (`super<Interface>.method`), overriding methods from `lang.core.behavior` interfaces such as `ScopeProvider.getScope` / `INamedConcept.getName` / `BaseConcept.getPresentation`, calling sibling methods (`LocalBehaviorMethodCall`) and behavior methods from other aspects via `node.method(...)`. Reach for this skill whenever the task involves authoring or modifying `<lang>/languageModels/behavior.mps`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-constraints/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-constraints\ndescription: Use when defining or editing MPS language constraints — property validators / setters / getters, referent search scopes (imperative or inherited via `ScopeProvider.getScope`), `referentSetHandler` side effects, default-scope blocks, `canBeChild` / `canBeParent` / `canBeAncestor` / `canBeRoot` placement rules, `defaultConcreteConcept` for abstract concepts, `set <read-only>` and `{name}` aliasing, and scope helpers (`SimpleRoleScope`, `ListScope`, `CompositeScope`, `HidingByNameScope`). Reach for this skill whenever the task involves authoring or modifying `<lang>/languageModels/constraints.mps`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-dataflow/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-dataflow\ndescription: Use when defining or debugging MPS dataflow builders for a concept — control/data flow declarations that drive reachability analysis and variable-use checking. Covers DataFlowBuilderDeclaration, BuilderBlock, emit instructions (code for, jump, ifjump, label, read, write, ret, mayBeUnreachable), positions (AfterPosition, BeforePosition, LabelPosition), the jetbrains.mps.lang.dataFlow language, the NodeParameter implicit, BL+smodel usage inside builder bodies, and IBuilderMode for advanced analyses such as nullable/non-null tracking.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-editor-menus-and-keymaps/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-editor-menus-and-keymaps\ndescription: >-\n  Use when authoring the **non-layout** parts of the MPS editor aspect — what happens when the user types, presses a key, triggers completion, pastes, or invokes a context action. Covers action maps (`CellActionMapDeclaration`), cell keymaps (`CellKeyMapDeclaration`), transformation menus (`TransformationMenu` with a default or named `type`, `TransformationMenuContribution`), substitute menus (`SubstituteMenu` default or named, `SubstituteMenuPart_Action`, contributions), side transforms (LEFT/RIGHT) and when typed text applies an item, which menu a cell consults, operator replacement that keeps operands, legacy cell menus, paste wrappers and copy-paste handlers (in the actions language), completion styling, reference presentation, two-step deletion (`approveDelete`), and the editor selection API. Trigger terms: `actionMap`, `keyMap`, `delete_action_id`, `transformationMenu`, `superconcepts menu`, `substituteMenu`, `Ctrl+Space`, `Ctrl+Alt+B`, side transform, paste wrapper, completion styling, `PasteWrappers`, `CopyPasteHandlers`. For the **layout** side (cells, layouts, style sheets) use `mps-aspect-editor` instead.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-editor/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-editor\ndescription: Use when creating or changing MPS editor definitions — the overall workflow from scaffolding a `ConceptEditorDeclaration` through componentizing reusable `EditorComponentDeclaration`s, refining cell models and cell layouts, applying style sheets and indent-layout style items, wiring smart references, leveraging inheritance via super-concepts and interfaces, inspecting (`mps_mcp_print_node` in its five formats) and validating (`check_root_node_problems`). Covers `jetbrains.mps.lang.editor` cell models (`CellModel_RefNode`/`CellModel_RefNodeList`/`CellModel_RefCell`/`CellModel_Property`/`CellModel_Constant`), layout choices, and JSON blueprints for common editor shapes; also alternative editors selected by editor hints (`ConceptEditorContextHints`, `contextHints`, hinted component overrides, `addHints`/`removeHints`, `next applicable editor`, pushed hints). For the non-layout side (action maps, keymaps, transformation/substitute menus) use `mps-aspect-editor-menus-and-keymaps`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-generation-plan/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-generation-plan\ndescription: Use when creating, editing, attaching, verifying or detaching an MPS generation plan — explicit ordering of generators (Transform / ApplyGenerators), checkpoints for cross-model reference resolution, forks with ParameterEquals conditions, IncludePlan composition, PlanContribution, InitModelAttributes for targetFacet routing. Covers attaching a @genplan model to models through a DevKit (exports + associated plan) or a Solution's Custom Generation facet with mps_mcp_update_module SET_GENERATION_PLAN, DevKit exports via mps_mcp_module_dependency, verifying with mps_mcp_generation PLAN, and maintaining plans (reorder, rename, extract, retarget) safely.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-generator/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-generator\ndescription: Use when defining or modifying MPS generators — author a generator module, add or edit root/reduction/weaving/pattern mapping rules, attach template macros ($COPY_SRC, $LOOP, $IF, $PROPERTY, $REF, $SWITCH, $MAP_SRC, $WEAVE, $INSERT, $LABEL, $TRACE, $VAR), wire mapping labels, build template switches, write pre/post mapping scripts, navigate `genContext`, formalize the expected output as a `GeneratorTest`, inspect transient step models and trace nodes forward or back to see what a generator does, or debug \"rule didn't fire\", missing references, empty output, infinite reduction loops, and generated-Java compile failures.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-intentions/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-intentions\ndescription: Use when defining or editing MPS intentions (the Alt+Enter context-action aspect) — adding `IntentionDeclaration` roots, parameterized or surround-with variants, description/isApplicable/execute blocks, child-filter functions, factory-initialized AST splicing, or debugging why an intention is not offered. Lives in the language's `intentions` model and uses `jetbrains.mps.lang.intentions`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-migrations/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-migrations\ndescription: Use when changing a language whose concepts already have instances (deciding whether a structure change is safe, deprecating instead of deleting, replacing a property, link or concept, moving the old values over) and when authoring or debugging MPS migration scripts that upgrade user models after a language definition changes — covers jetbrains.mps.lang.migration (MigrationScript class-based, PureMigrationScript declarative, MoveConcept/MoveContainmentLink/MoveReferenceLink/MoveProperty, ordering via OrderDependency, data exchange via putData/getData, RefactoringLog, ConceptMigrationReference) and jetbrains.mps.lang.script Enhancement Scripts (MigrationScript with MigrationScriptPart_Instance, ExtractInterfaceMigration, FactoryMigrationScriptPart, CommentMigrationScriptPart) — when a model needs version-gated upgrade, concept rename or removal, link or property rename, instance-level transformation, or composition of migration steps.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-structure-concepts/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-structure-concepts\ndescription: Define concepts, interface concepts, enumerations, and constrained data types in an MPS language's `structure` aspect. Covers smart-reference detection, alias rules, cardinality, INamedConcept usage, bulk creation, and the full `mps_mcp_alter_structure` / `mps_mcp_query_structure` reference. Use when authoring or modifying a language's structure model.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-textgen/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-textgen\ndescription: Use when authoring or debugging MPS TextGen — concept-to-plain-text serialisation for languages whose final output is text (source files, config, scripts, DDL, XML, markdown). Covers `ConceptTextGenDeclaration` roots, `append` / `indent buffer` / `with indent` statements, text layout areas, context objects (e.g. imports sets), attributes, the base text gen component (`LanguageTextGenDeclaration`), binary `write`, `found error`, and the indentation-buffer model. Reach for this skill whenever the task involves editing `<lang>/languageModels/textGen.mps`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-aspect-typesystem/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-aspect-typesystem\ndescription: >-\n  Use when authoring or debugging MPS typesystem — inference rules (`typeof :==: / :<=: / :>=:`), `SubtypingRule`, `ComparisonRule`, `InequationReplacementRule`, `SubstituteTypeRule`, `WhenConcreteStatement` blocks, `NonTypesystemRule` checking rules, `TypesystemQuickFix`, error/warning/info reports with `messageTarget` highlighting and quick-fix wiring (`helginsIntention`), and shared BaseLanguage helpers in the typesystem model. For questions to the compiled typesystem (`IS_SUBTYPE`, `EXPLAIN_TYPE`, `GET_EXPECTED_TYPE`), use the query tools when debugging “type stays undefined” or “operator cannot be applied.” Reach for this skill whenever the task involves editing `<lang>/languageModels/typesystem.mps`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-baselanguage/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-baselanguage\ndescription: Author and edit MPS `jetbrains.mps.baseLanguage` (Java) nodes — choose between the Java parser and JSON AST blueprints, map Java syntax to baseLanguage concepts/roles, harvest persistent member references, and validate. Use when writing class/method bodies, fields, expressions, statements, or any Java/BaseLanguage code inside MPS models, especially when BaseLanguage extensions (smodel, closures, collections) are involved.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-build-language/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-build-language\ndescription: >-\n  Use when authoring or modifying MPS Build Language scripts (`BuildProject` roots) — the declarative DSL that generates Ant `build.xml` to package MPS language plugins, plain Java modules, standalone IDE/RCP distributions, module tests, or `run code from solution` tasks. Covers build solution setup (wizard or manual), macros, project/external/Java dependencies, MPS module declarations (`BuildMps_Language` / `_Solution` / `_Generator`), groups, plugin declarations (`idea plugin` / `BuildMps_IdeaPlugin`), layouts, branding and startup scripts for standalone IDEs, MPS settings, and the workflow language. Trigger terms: `BuildProject`, `BuildMps_*`, `BuildLayout_*`, `jetbrains.mps.build`, `build.mps` solution, Build Solution wizard, `internalBaseDirectory`, `fileName`, Ant target generation, `mps_home`, `artifacts.mps`, `mpsStandalone`.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-collections-and-closures/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-collections-and-closures\ndescription: >-\n  Use when writing or editing MPS BaseLanguage code that uses the `collections` and `closures` language extensions — in behavior methods, typesystem and checking rules, generator queries, constraints, intentions, plugin or console code, with or without nodes. Covers collection types (`sequence<T>`, `list<T>`, `set<T>`, `map<K,V>`, sorted variants), creators, sequence operations (`.where`, `.select`, `.translate`, `.any`, `.sortBy`, `.toList`, …), list/set/map mutators, the collections `foreach` vs the BaseLanguage `foreach`, closure literals (`{ it => ... }`, `ClosureLiteral`, `InferredClosureParameterDeclaration`, `FunctionType`), `yield`, `skip`, `stop`, recursion with `invoke`, SAM conversion, and `downcast` to a Java interface. The node receivers (`node.descendants<C>`, `nlist<C>`, `sequence<node<C>>`) come from the companion skill `mps-model-manipulation`; most smodel bodies need both.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-console/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-console\ndescription: >-\n  Run or generate MPS Console code and `jetbrains.mps.lang.smodel.query` queries in MPS intentions, behavior, actions, generators, and BaseLanguage. Covers console commands, result printers, IDE operations, scripts, scoped node/model/module queries, and inserting, reading, recalling, or running commands through MPS MCP tools.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-distribution-build/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-distribution-build\ndescription: Use when bundling a new plain Java/Kotlin plugin into MPS distribution archives, debugging packaging/layout issues in `build/mps*.xml`, tracing where per-plugin artefacts end up, or editing `plugins/mps-build/solutions/mpsBuild/models/build.mps` (the source of truth that generates every `build/mps*.xml`). The skill covers the generated Ant pipeline, plugin-to-distribution wiring, and the per-plugin / aggregator / distribution layers.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-dsl-memory/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-dsl-memory\ndescription: Create or refresh project-local DSL skills under `.agents/skills/<dsl-name>-dsl/` for one or more MPS languages after discovering concepts, sandbox examples, JSON blueprints, references, or gotchas.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-ide-plugin/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-ide-plugin\ndescription: >-\n  Use when authoring or modifying MPS IDE plugins — code that integrates with the MPS / IntelliJ host IDE shell. Covers ActionDeclaration, ActionGroupDeclaration, ToolDeclaration/TabbedToolDeclaration (dockable tool windows), KeymapChangesDeclaration (shortcuts), PreferencesComponentDeclaration (settings pages), EditorTab+Order (concept editor tabs), InterfaceGroup (bootstrap wrappers around external groups), NonDumbAwareActions, IdeaConfigurationXml, ApplicationPluginDeclaration/ProjectPluginDeclaration/StandalonePluginDescriptor (lifecycle hooks). Uses jetbrains.mps.lang.plugin and jetbrains.mps.lang.plugin.standalone. Trigger terms: action group, tool window, menu item, MainMenu, EditorPopup, NodeActions, ModelActions, ModuleActions, ProjectViewPopupMenu, MPS plugin solution, ActionInstance, ModificationStatement, DataKey, MPSCommonDataKeys, MPSDataKeys, dumb-aware, project.tool<...>, project.preferenceComponent<...>, application plugin<...>, project plugin<...>.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-lang-core-xml/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-lang-core-xml\ndescription: Use when authoring XML documents as MPS root nodes or building XML-generating generator templates with jetbrains.mps.core.xml — covers XmlFile, XmlDocument, prolog (XML declaration, DOCTYPE, processing instructions, comments), elements, attributes, CDATA, entity references, and macro attachment via the smodelAttribute role for templates that emit XML output.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-language-analysis/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-language-analysis\ndescription: Analyze an MPS language by name — discover concepts, properties, references, children, aspects (editor/constraints/behavior), metadata, and answer type questions (is A a subtype of B, common supertype, expected type of a slot, why a node has its type) with `mps_mcp_query_types`. Use when investigating an unfamiliar language, exploring concept structure, or finding sample nodes to use as templates for JSON blueprints.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-language-aspects-overview/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-language-aspects-overview\ndescription: Entry point for authoring or modifying an MPS language — index of all aspects (structure, editor, constraints, behavior, typesystem, intentions, actions, generator, textgen, accessories, generation plans), the recommended authoring order, cross-aspect call patterns, dependency/rebuild rules, and validation flow. Start here when defining a new language or when you do not know which aspect-specific skill applies.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-language-inheritance/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-language-inheritance\ndescription: Investigate inheritance between MPS languages and between concepts — extended languages, superconcepts, implemented interfaces, sub-/assignable concepts, and cross-language specialization. Use when tracing language hierarchies, finding extension points, or checking concept assignability.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-language-modularity/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-language-modularity\ndescription: >-\n  Use when designing how multiple MPS languages relate or compose — choosing between language referencing, extension, reuse, and embedding, or deciding where a cross-language dependency should live and how generated code interacts. Covers the 2×2 modularity taxonomy adapted to MPS, a decision procedure, per-kind recipes (references + search scopes; subconcepting + overloaded operations; abstract hooks + adapter languages + separated/interwoven generation; guest + composition languages + type bridges), the annotations escape hatch, and per-kind validation. This is the design tier above the aspect-implementation skills: it picks the strategy, then routes into the relevant mps-aspect-* skills (structure, constraints, typesystem, generator, generation-plan, intentions) and mps-tests. Reach for it before authoring aspects, or whenever one language must see, extend, embed, or adapt another.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-mcp-workflow/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-mcp-workflow\ndescription: Complete JetBrains MPS workflow guide for DSL projects — models, languages, generators, node JSON blueprints, type queries, validation, MPS MCP tool usage, and the index of companion skills. Use whenever working in an MPS project, when AGENTS.md says to load the MPS workflow skill, or when you need to pick the right MPS aspect-specific skill.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-model-manipulation/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-model-manipulation\ndescription: >-\n  Use when writing or editing MPS BaseLanguage code that lives inside a model — behavior methods, typesystem rules, checking rules, generator queries, constraints, intentions, scope/canBe callbacks, dataflow builders — and uses the `smodel` language extension. Covers querying nodes (`.descendants<C>`, `.ancestor<C>`, `.children`, `.parent`, `containingRoot`, `.ofConcept<C>`), creating and mutating nodes (`new node<C>()`, `add new(C)`, `set new(C)`, `replace with new(C)`, `.detach`, `.copy`), property and link access (`SPropertyAccess`, `SLinkAccess`, `SLinkListAccess`), reference operations (`.reference/C : role/`, `.target`), a node, model or module known at design time (`node-ptr/…/.resolve(repo)`, `model-ptr/…/`, `module-reference/…/`), null-safe node equality (`:eq:` / `:ne:`), smodel/Java type casts (`node:C`, `node as C`, `/`), the `command` / `write action` / `read action` lock wrappers, and JSON blueprints for every shape the Java parser cannot produce. Collection operations and closures (`.where`, `.select`, `.translate`, `{ it => }`) are in the companion skill `mps-collections-and-closures`; most bodies need both.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-node-editing/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-node-editing\ndescription: Add, update, or delete MPS nodes using JSON blueprints — covers the unified blueprint format, staged construction for large subtrees, validation, and reference repair. Use whenever creating, editing, or restructuring nodes in any MPS model (structure, editor, behavior, generator, application code, etc.).\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-project-management/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-project-management\ndescription: Open an MPS project in a running or freshly started MPS instance when MCP tools fail because no project is open (welcome screen), close an open project with `mps_mcp_close_project`, or create a new empty MPS project headlessly. Covers MPS built from sources vs a standalone install, detecting which case you are in, macOS/Linux/Windows CLI activation, close timeout / force-close recovery, and empty project creation file templates. Use when `mps_mcp_*` is rejected with empty `Currently open projects`, when MPS shows the welcome screen, when an agent must open a project via the command line, when creating a new empty MPS project, or when closing a project.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-quotations/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-quotations\ndescription: >-\n  Use when writing or debugging MPS quotations and anti-quotations — \"node literals\" that create SNode trees inline in behavior, typesystem, intentions, generator, and other model code. Covers heavy quotations (`Quotation`, `<...>`), light quotations (`NodeBuilder`, constructor-style for bootstrapping), and the four anti-quotation varieties: child (`%(...)%`), list (`*(...)*`), reference (`^(...)^`), property (`$(...)$`). Reach for this skill whenever the task involves splicing runtime values into quoted node trees or choosing between heavy and light quotations.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-run-configurations/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-run-configurations\ndescription: Create and execute IDE run configurations for MPS root nodes via MPS MCP — Java Application for `IMainClass` / `ClassConcept` with `main`, JUnit Tests for `ITestCase` and other discovered test roots such as `GeneratorTest`. Use when launching DSL `main`-like roots, plain BaseLanguage `ClassConcept` mains, or MPS test cases from a node; reusing or replacing an existing run config; diagnosing `ClassNotFoundException`, `compileInMPS=false`, or \"not runnable through this tool\" failures.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/mps-tests/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: mps-tests\ndescription: Use when writing or modifying tests inside MPS `@tests` models — `NodesTestCase` (typesystem, constraints, scopes, dataflow), `GeneratorTest` (generator output against an expected model, match options, explicit generation plans), `EditorTestCase` (intentions, actions, keystrokes, side-transforms, completion), `MigrationTestCase` (migration scripts), `BTestCase` (plain JUnit on hand-written Java/Kotlin runtime), inline annotations such as `has error` / `has type` / `ScopesTest`, label-based `node<label>` cross-references, caret markers, and running tests via MCP / in MPS. Reach for this skill whenever the task involves authoring or fixing tests in a `tests`-stereotype model, or interpreting failures from one.\ntype: reference\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/registry/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: registry\ndescription: Guidelines for using the IntelliJ Registry API. Use when working with registry keys or feature flags.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/skill-optimization-study/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: skill-optimization-study\ndescription: Re-runnable measurement loop for agent-driven JetBrains MPS work over mps_mcp_* tools — baseline headless worker runs on fixed scenarios, server call log + transcripts, hotspot ranking, remedy classification (docs / server tool / offline script / online script / template), optional A/B. Use when tool descriptions or mps-* skills changed, before a release, or when agents seem slow or retry-prone on MPS tasks.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/ssr/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: ssr\ndescription: Guide for using Structural Search and Replace in IntelliJ. Use when creating or modifying SSR inspections or search patterns.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/study-run-cleanup/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: study-run-cleanup\ndescription: Clean old MPS skill-study scratch projects under ~/MPSProjects/mcp-study. Use when the user asks to clean, prune, or reclaim disk from old run projects, proj-r directories, or archive/workspace. Not for transcripts, and not part of a measurement round.\n---\n"
+ },
+ "https://raw.githubusercontent.com/JetBrains/MPS/1cbf7f783dbc5c74c8e5231d31f61b02829143de/.agents/skills/teamcity-cli/SKILL.md": {
+  "status": 200,
+  "body": "---\nname: teamcity-cli\nversion: \"0.9.0\"\nauthor: JetBrains\ndescription: Use when working with TeamCity CI/CD or when user provides a TeamCity build URL. Use `teamcity` CLI for builds, logs, jobs, queues, agents, and pipelines.\n---\n"
+ }
+}
